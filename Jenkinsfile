@@ -1,4 +1,4 @@
-
+//This is file for a Jenkins pipeline to build a Java application and create a Docker image.  
 pipeline {
     agent any
     stages {
