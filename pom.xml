@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- ✅ Spring Boot Parent -->
+    <!-- Spring Boot Parent -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -23,6 +23,7 @@
 
     <properties>
         <java.version>11</java.version>
+        <mysql.version>8.0.33</mysql.version>
     </properties>
 
     <dependencies>
@@ -43,6 +44,8 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
+            <version>${mysql.version}</version>
+            <scope>runtime</scope>
         </dependency>
 
     </dependencies>
